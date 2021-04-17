@@ -19,7 +19,8 @@ Vaults 是 Alchemix 協議的中心. Alchemist.sol 智能合約驅動著 Vaults.
 
 我們最重視的是使用者存入資產的安全. 這就是為何我們選擇 yearn 當作我們的收益聚合器.(yield aggregator) Alchemix 也正在進行安全性的審查以及審核, 儘管如此嚴謹, 這並不保證不會有任何不好的事發生. Vaults 有一個緊急關閉的機制為此而生. 假如這個程序啟動了, 那麼所有的資金會被從 yearn.finace 裡抽回. 存入動作會被暫停, 使用者可以付清它們的債務然後安全的離開系統. 希望如此可以避免或是減輕任何損失.
 
-另外有兩個安全衡量可以來保護 Alchemix 的合成代幣.第一, 每個資產可以鑄造的的 alUSD 是有限制的. 這個限制決定在這個資產的技術的程度, 市場以及法律的風險. 第二, Alchemix 會使用 Chainlin 預言機上的價格.(price feeds)  當一個穩定幣的價格在某個筏值之下, 鑄造, 使用基礎資產的償還以及清會被暫停值到價格回到一個可接受的的程度. 這些安全衡量無法完全的制止stable coin 失去它的釘住(peg)或是失去價值所帶來的傷害, 但可以保護大部分 Alchemix 合成代幣的價值.
+另外有兩個安全衡量可以來保護 Alchemix 的合成代幣.第一, 每個資產可以鑄造的的 alUSD 是有限制的. 這個限制決定在這個資產的技術的程度, 市場以及法律的風險. 第二, Alchemix 會使用 Chainlink 預言機上的價格.(price feeds)  當一個穩定幣的價格在某個筏值之下, 鑄造, 使用基礎資產的償還以及清會被暫停值到價格回到一個可接受的的程度. 這些安全衡量無法完全的制止stable coin 失去它的釘住(peg)或是失去價值所帶來的傷害, 但可以保護大部分 Alchemix 合成代幣的價值.
 
+[![hackmd-github-sync-badge](https://hackmd.io/1AK1bxLiQ4i4Ek03PenW9A/badge)](https://hackmd.io/1AK1bxLiQ4i4Ek03PenW9A)
 
 ###### tags: `Defi` `Alchemix` `User Manual` `Tranditional Chinese` `zh_tw`
